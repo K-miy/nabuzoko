@@ -2,7 +2,7 @@
 
 ## Contexte & Inspiration
 
-**Nabuzoko** est le lapin de Pâques de mon enfance. Mon père et mon oncle organisaient des chasses au trésor extraordinaires à la maison de campagne familiale : course du cycliste le plus lent sans toucher à terre, compétitions de dessin et de sculpture à partir de matériaux récupérés, indices sur des points d'ancrage du voisinage, jusqu'à des calculs avancés permettant de trianguler l'emplacement du trésor enfoui.
+**Nabuzoko** est le lapin de Pâques de mon enfance, à **Sainte-Foy-la-Grande** en Dordogne. Mon père et mon oncle organisaient des chasses au trésor extraordinaires à la maison de campagne familiale : course du cycliste le plus lent sans toucher à terre, compétitions de dessin et de sculpture à partir de matériaux récupérés, indices sur des points d'ancrage du voisinage, jusqu'à des calculs avancés permettant de trianguler l'emplacement du trésor enfoui.
 
 Je reproduis cette expérience pour mes deux enfants.
 

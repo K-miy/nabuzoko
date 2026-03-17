@@ -6,7 +6,7 @@
 
 ## L'histoire derrière ce projet
 
-Il y a quelques décennies, dans une maison de campagne familiale, un père et son frère organisaient chaque année une chasse au trésor qui défie encore la mémoire de ceux qui y ont participé.
+Il y a quelques décennies, dans une maison de campagne familiale à **Sainte-Foy-la-Grande**, en Dordogne, un père et son frère organisaient chaque année une chasse au trésor qui défie encore la mémoire de ceux qui y ont participé.
 
 Ce n'était pas une chasse aux œufs ordinaire.
 
