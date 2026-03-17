@@ -1,11 +1,11 @@
-# Le Dernier Printemps de Nabuzoko
+# Le Centenaire de Nabuzoko
 ### Scénario — Pâques 2026
 
 ---
 
 ## La Prémisse
 
-Nabuzoko a 100 ans. C'est sa dernière mission comme lapin de Pâques avant de prendre sa retraite dans la grande forêt de Dordogne. Avant de partir, il a décidé de léguer son trésor le plus précieux — mais il ne fait confiance qu'aux équipes. Jamais aux solitaires.
+Nabuzoko a 100 ans. Pendant un siècle, il a caché des œufs sous des buissons, derrière des pots de fleurs et sous les canapés. Cette année, il a décidé que c'était suffisamment ennuyeux. Pour son centenaire, il a conçu sa première vraie chasse au trésor — la plus ambitieuse de sa carrière. Il ne la confie qu'à ceux qui savent travailler en équipe.
 
 ---
 
@@ -17,13 +17,14 @@ Nabuzoko a 100 ans. C'est sa dernière mission comme lapin de Pâques avant de p
 | **Étapes** | Prologue + 7 étapes + Finale |
 | **Extérieur** | Étapes 6 et 7 (prévoir vêtements chauds) |
 | **Juge requis** | Étape 2 (jonglerie) et Étape 6 (vélo) |
-| **Cadenas final** | 3 chiffres — assemblés aux étapes 1, 4 et 6 |
+| **Cadenas final** | **4 chiffres** — assemblés aux étapes 1, 3, 5 et 6 |
 | **Climax** | Triangulation dans le jardin → trésor enfoui |
+| **Format des indices** | Cachés dans des œufs en plastique |
 
 ### Mécanique globale
 
 Les enfants collectent deux types de fragments au fil de la chasse:
-- **🔢 Chiffres** (×3) → code du cadenas qui verrouille le coffre
+- **🔢 Chiffres** (×4) → code du cadenas qui verrouille le coffre
 - **📐 Distances** (×2) → données de triangulation pour localiser l'endroit exact où creuser
 
 Les deux mécaniques convergent à la fin. Ni l'une ni l'autre ne suffit seule.
@@ -34,57 +35,73 @@ Les deux mécaniques convergent à la fin. Ni l'une ni l'autre ne suffit seule.
 
 ### Matériel à rassembler
 
-- [ ] Cadenas numérique 3 chiffres
+- [ ] Cadenas numérique **4 chiffres**
 - [ ] Boîte / coffre à décorer (le "trésor")
-- [ ] 7 enveloppes numérotées
-- [ ] Sèche-cheveux
-- [ ] 1 petit miroir de poche (ou miroir de compact)
+- [ ] Œufs en plastique (×8 minimum — pour cacher les indices)
+- [ ] 1 bougie + allumettes (révélation encre invisible)
+- [ ] 1 petit miroir de poche ou miroir de compact
 - [ ] Balles de jonglage (déjà dispo)
 - [ ] Vélos (déjà dispo)
 - [ ] Boîte de matériaux récupérés (voir liste détaillée en Étape 5)
-- [ ] Ficelle (~2 m), crayon, rapporteur ou compas de dessin
+- [ ] Ficelle (~2 m), crayon, compas de dessin ou bout de ficelle rigide
 - [ ] Petite pelle ou truelle
 - [ ] Plan du jardin dessiné à la main (voir Étape 7)
+- [ ] Chronomètre (téléphone suffit — Étape 6)
 
-### Ingrédients du trésor
+### Contenu du coffre
 
-Contenu suggéré de la boîte (à adapter):
-- Chocolats artisanaux (Québec: La Cabosse d'Or, ou autre)
-- Un objet personnel pour chacun (livre, carte, objet de collection)
-- Une "lettre de Nabuzoko" écrite à la main expliquant sa retraite
-- Un indice pour une prochaine aventure (optionnel)
+- Chocolats
+- Un objet personnel pour chacun
+- Une lettre de Nabuzoko: *"Cent ans d'expérience. Pas mal, non?"*
+- (Optionnel) Un indice pour une prochaine aventure l'an prochain
 
-### À préparer et cacher
+### À préparer et placer la veille
 
-| Objet | Où le cacher |
-|---|---|
-| Enveloppe 1 (message miroir) | Dans ou sous le réfrigérateur |
-| Enveloppe 2 (Pig Pen) | Sous l'oreiller ou dans la chambre (selon E3) |
-| Enveloppe 3 (instructions jonglerie) | Dans le salon, bien visible une fois l'étape 3 réussie |
-| Enveloppe 4 (code à deux clés) | Sous le canapé ou derrière un livre spécifique |
-| Enveloppe 5 (instructions vélo) | À remettre en main propre après E4 |
-| Enveloppe 6 (défi maths + Distance 2) | À remettre en main propre après E6 |
-| Coffre verrouillé | Enterré dans le jardin à ~15 cm de profondeur |
+| Contenu | Format | Où le cacher |
+|---|---|---|
+| Message du prologue | Feuille imprimée + partie encre invisible | Table du petit-déjeuner |
+| Indice Étape 1 (code miroir) | Dans un œuf plastique | Réfrigérateur |
+| Indice Étape 2 (instructions jonglerie + Pig Pen) | Dans un œuf plastique | À remettre après E1 |
+| Indice Étape 3 (Pig Pen + chiffre 2) | Dans un œuf plastique | Emplacement révélé par le miroir |
+| Indice Étape 4 (code à deux clés + distance 1) | Dans un œuf plastique | Emplacement révélé par Pig Pen |
+| Indice Étape 5 (nid + chiffre 3) | Dans un œuf plastique | Emplacement révélé par code 2 clés |
+| Indice Étape 6 (vélo) | Remis en main propre après E5 | — |
+| Indice Étape 7 (triangulation + distance 2 + chiffre 4) | Remis en main propre après E6 | — |
+| Coffre verrouillé | Dans un sac Ziploc étanche | Enterré dans le jardin à ~15 cm |
 
 ---
 
-## PROLOGUE — La Feuille Vierge
+## PROLOGUE — La Lettre de Nabuzoko
 
 **Lieu**: Table du petit-déjeuner
 **Durée**: 5 min
-**Ce que les enfants trouvent**: Une feuille blanche avec un sèche-cheveux et un post-it: *"Tenez ce papier près de la chaleur."*
+**Ce que les enfants trouvent**: Une lettre posée avec une bougie et des allumettes.
 
-**Préparation** (la veille): Écrire le message suivant avec un coton-tige trempé dans du jus de citron pur. Laisser sécher complètement.
+### Préparation
 
-> *Je m'appelle Nabuzoko. J'ai cent ans aujourd'hui. C'est ma dernière mission.*
+La lettre a **deux parties**:
+
+**Partie 1 — imprimée normalement** (le contexte):
+
+> *Bonjour.*
 >
-> *Mon trésor est caché dans votre jardin depuis ce matin. Mais je ne le confie qu'à ceux qui savent travailler ensemble — si l'un abandonne ou triche, la carte se détruit.*
+> *Je m'appelle Nabuzoko. J'ai 100 ans aujourd'hui. Pendant un siècle, j'ai caché des œufs de Pâques sous des buissons et derrière des canapés. Honnêtement, c'est devenu un peu ennuyeux.*
 >
-> *Votre première lettre est là où se garde le froid.*
+> *Cette année, pour mon centenaire, j'ai décidé de faire quelque chose de digne de mes 100 ans d'expérience. J'ai caché un vrai trésor — mais seulement les équipes peuvent le trouver. Les solitaires, jamais.*
+>
+> *Il y a un message caché plus bas sur cette feuille. Vous aurez besoin de chaleur pour le lire.*
 
-En chauffant le papier, le texte brun apparaît progressivement. **Effet garanti.**
+**Partie 2 — à l'encre invisible** (jus de citron, coton-tige), juste en dessous:
 
-*Transition*: les enfants cherchent "où se garde le froid" → réfrigérateur → **Enveloppe 1**.
+> *Votre première piste est là où se garde le froid.*
+
+### Comment révéler la partie invisible
+
+Passer lentement le papier **au-dessus** d'une bougie allumée, à 5-8 cm de la flamme. Ne jamais poser le papier sur la flamme. Le texte brun apparaît en quelques secondes.
+
+⚠️ *Tenir le papier par les coins, à plat. Un adulte reste dans la pièce. Effet garanti et spectaculaire.*
+
+*Transition*: "là où se garde le froid" → réfrigérateur → **œuf plastique n°1**.
 
 ---
 
@@ -93,73 +110,82 @@ En chauffant le papier, le texte brun apparaît progressivement. **Effet garanti
 **Lieu**: Cuisine
 **Durée**: 5-10 min
 **Difficulté**: ⚡
-**Matériel dans l'enveloppe**: Message écrit à l'envers + miroir de poche (ils le gardent pour la suite)
+**Dans l'œuf**: Message écrit à l'envers + miroir de poche (ils le gardent pour toute la chasse)
 
-**Message à écrire à l'envers** (tester avec un miroir avant):
+**Message à écrire à l'envers** *(tester avec un miroir avant d'écrire la version finale)*:
 
-> *Vingt échanges de balles, pas un de moins. Votre premier chiffre est le nombre de pattes d'un lapin divisé par deux.*
->
-> *Réussissez l'épreuve pour trouver votre prochaine enveloppe.*
+> *Vingt échanges de balles sans en faire tomber une seule.*
+> *Votre premier chiffre: le nombre de pattes d'un lapin, divisé par deux.*
 
-**Chiffre 1 du cadenas**: 4 pattes ÷ 2 = **2**
-*(Adapter selon le code voulu — voir section "Cadenas" en fin de document)*
+**→ Chiffre 1 du cadenas**: 4 ÷ 2 = **2**
 
-*Transition*: les enfants comprennent qu'il faut jongler → cherchent les balles → vont au salon.
+L'œuf contient aussi l'indication que l'œuf n°2 sera remis par un adulte une fois l'épreuve réussie.
 
 ---
 
 ## ÉTAPE 2 — Jonglerie à Deux `[P06]`
 
-**Lieu**: Salon
+**Lieu**: Salon ou couloir dégagé
 **Durée**: 10-15 min
 **Juge**: la mère (compte à voix haute)
-**Matériel**: 3 balles de jonglage (déjà dispo)
+**Matériel**: balles de jonglage (déjà dispo)
 
-**Règle**: Les deux enfants se font face. Ils se lancent les balles en alternance, sans qu'aucune ne tombe. Objectif: **20 échanges consécutifs**. Si une balle tombe, on repart de zéro.
+**Règle**: Les deux enfants se font face (~2 m). Ils se lancent les balles en alternance sans qu'aucune ne tombe. Objectif: **20 échanges consécutifs**. Si une balle tombe, retour à zéro.
 
-*Note*: Commencer doucement, la distance idéale est ~2 mètres. Prévoir que ça prendra plusieurs essais — c'est normal et c'est là que la collaboration commence vraiment à se construire.
+*La distance, le rythme, la coordination — tout se négocie entre eux. C'est le premier vrai moment de collaboration.*
 
-**Si réussi**: la mère remet **l'Enveloppe 2** (ou l'indique: "sous le coussin à gauche").
+**Si réussi**: l'adulte remet l'**œuf n°2**.
+
+L'œuf n°2 contient: la grille Pig Pen + le message encodé pour l'Étape 3.
 
 ---
 
 ## ÉTAPE 3 — Code Pig Pen `[C07]`
 
-**Lieu**: Intérieur (là où ils ouvrent l'enveloppe)
+**Lieu**: Intérieur
 **Durée**: 10-15 min
 **Difficulté**: ⚡⚡
-**Matériel dans l'enveloppe**: Grille de référence Pig Pen + message chiffré
+**Dans l'œuf**: Grille de référence Pig Pen + message encodé + carton avec le Chiffre 2
 
-**La grille Pig Pen** (à imprimer ou dessiner à la main):
+### La grille Pig Pen
+
+À imprimer ou dessiner à la main proprement. Deux grilles: une carrée (A→I, J→R, S→Z sans point) et une en croix de Saint-André (J→R avec point, S→Z avec point). Chaque lettre = la forme de sa case; les lettres de la 2e moitié ont un point au centre.
 
 ```
- A|B|C    J\K/L
- -+-+-    --X--
- D|E|F    M/N\O
- -+-+-
- G|H|I
+Grille 1 (sans point):        Grille 2 (avec point):
+ A | B | C                     J \ K / L
+ ─────────                        ╲ ╱
+ D | E | F                     M ─╳─ N
+ ─────────                        ╱ ╲
+ G | H | I                     O / P \ Q
 
- P|Q|R    W\.X./Y
- -+-+-    ---X---
- S|T|U    Z/ \(fin)
- -+-+-
- V|W|X
+Grille 3 (sans point):        Grille 4 (avec point):
+ R | S | T                     W \ X / Y
+ ─────────                        ╲·╱
+ U | V | W                     Z ─╳─ ·
+ ─────────                        ╱·╲
+ X | Y | Z
 ```
 
-Chaque lettre = la forme de sa case (avec un point pour les lettres de la 2e grille).
+*Note: utiliser les nombreuses images de référence Pig Pen disponibles en ligne pour l'impression — chercher "Pig Pen cipher alphabet".*
 
-**Message suggéré** (à encoder avec la grille):
+### Le message à encoder
 
-> SOUS LE CANAPÉ
+Choisir un lieu de la maison (ex: SOUS LE LIT, DERRIÈRE LE CANAPÉ, DANS LE PLACARD). Encoder lettre par lettre avec la grille. **Tester le décodage avant la chasse.**
 
-*(Choisir un lieu de la maison et l'encoder. Tester le décodage avant la chasse.)*
+### Chiffre 2 du cadenas
 
-**Ce qu'ils trouvent sous le canapé**: **Enveloppe 3** + **Chiffre 2 du cadenas** écrit sur un petit carton:
+Sur un carton séparé dans l'œuf:
 
-> *"Nabuzoko a caché des œufs pendant exactement (nombre de lettres dans LAPIN + 1) années."*
-→ 5 + 1 = **6**
+> *"Nabuzoko a caché des œufs pendant (lettres dans LAPIN) × 1 an de moins qu'il n'en a vécu."*
+> → 100 − 5 = **95**...
 
-*(Adapter le calcul selon le chiffre souhaité)*
+Trop complexe — préférer:
+
+> *"Ton deuxième chiffre: le nombre de lettres dans PÂQUES moins deux."*
+> → 6 − 2 = **4**
+
+*(Adapter selon le code souhaité — voir section Cadenas en fin de document)*
 
 ---
 
@@ -167,33 +193,38 @@ Chaque lettre = la forme de sa case (avec un point pour les lettres de la 2e gri
 
 **Lieu**: Intérieur
 **Durée**: 10-15 min
-**Difficulté**: ⚡⚡ — **vraiment collaboratif, aucun ne peut finir seul**
+**Difficulté**: ⚡⚡ — **aucun des deux ne peut finir seul**
 
-**Dans l'Enveloppe 3**: deux petits papiers pliés séparément.
+**Dans l'œuf**: deux petits papiers pliés séparément + message à déchiffrer sur un carton.
 
-**Papier A** (enfant le plus vieux):
-> *Ta clé: A=🐰 B=🥕 C=🌸 D=🌿 E=⭐ F=🔑 G=🌙 H=💧 I=🌈 J=🍄 K=🦋 L=🌻 M=🎯*
-
-**Papier B** (enfant le plus jeune):
-> *Ta clé: N=🏠 O=🌊 P=🎨 Q=❄️ R=🌺 S=🎭 T=🦊 U=🏆 V=🌟 W=🎪 X=🔮 Y=🎵 Z=🌍*
-
-**Message à déchiffrer** (sur l'enveloppe elle-même, visible sans l'ouvrir):
-
+**Papier de l'enfant A** (remettre sans que l'autre voie):
 ```
-🎭 🌊 🌸 🎭  🌻 🥕  🌿 🌈 🏠 🌺 🥕 🥕
+A=① B=② C=③ D=④ E=⑤ F=⑥ G=⑦ H=⑧ I=⑨ J=⑩ K=⑪ L=⑫ M=⑬
 ```
 
-→ **SOUS LA GINRAE** — non, construire un vrai message cohérent.
+**Papier de l'enfant B** (remettre sans que l'autre voie):
+```
+N=⑭ O=⑮ P=⑯ Q=⑰ R=⑱ S=⑲ T=⑳ U=㉑ V=㉒ W=㉓ X=㉔ Y=㉕ Z=㉖
+```
 
-> **Note de préparation**: Créer le message encodé APRÈS avoir choisi le lieu. Encoder lettre par lettre en utilisant les deux papiers, puis vérifier le décodage. Exemple: "SOUS LE BUFFET" donne: 🎭🌊🌸🎭 ⭐🌻⭐ 🐰🌸🦊🌻🐰🦊 — tester avant.
+**Message à déchiffrer** (sur un carton, visible de tous):
 
-*Les enfants doivent s'asseoir côte à côte et décoder ensemble. Ni l'un ni l'autre n'a toutes les lettres.*
+Choisir un lieu de la maison, l'encoder avec les numéros, écrire la séquence sur le carton.
 
-**Ce qu'ils trouvent au lieu indiqué**: **Enveloppe 4** contenant les instructions de l'étape suivante ET la **Distance 1 pour la triangulation**.
+Exemple — "SOUS LE BUFFET":
+```
+⑲ ⑮ ㉑ ⑲   ⑫ ⑤   ② ㉑ ⑥ ⑥ ⑤ ㄒ
+```
+*(Remplacer par votre lieu réel — voir Note de préparation)*
 
-> *"Le trésor de Nabuzoko est à [X] mètres du [point de référence A — ex: le grand arbre / le coin de la clôture / le cabanon]."*
+> **Note de préparation**: encoder le message APRÈS avoir choisi le lieu. Écrire chaque lettre, chercher son numéro dans le bon papier (A = papier A pour A-M, papier B pour N-Z), noter la séquence. Tester le décodage à rebours avant la chasse.
 
-*(Mesurer à l'avance. La distance exacte dépend de l'endroit où sera enterré le coffre.)*
+*Les enfants s'assoient côte à côte. Enfant A décode les chiffres 1-13, enfant B décode les chiffres 14-26. Impossible de finir seul.*
+
+**Dans l'œuf à l'emplacement révélé**: **Distance 1 pour la triangulation**.
+
+> *"Le trésor de Nabuzoko est à ___ mètres de [point de référence A]."*
+*(À compléter — voir section Triangulation)*
 
 ---
 
@@ -201,29 +232,30 @@ Chaque lettre = la forme de sa case (avec un point pour les lettres de la 2e gri
 
 **Lieu**: Cuisine ou table à manger
 **Durée**: 20 min construction + 2 min test
-**Difficulté**: ⚡⚡ (ingénierie)
-**Juge**: les deux parents (ou l'un ou l'autre)
+**Difficulté**: ⚡⚡
+**Juge**: un adulte
 
-**Dans l'Enveloppe 4**: les instructions + la boîte de matériaux.
+**Dans l'œuf**: instructions + la boîte de matériaux est posée sur la table.
 
 **Défi**: Construire un nid capable de protéger **3 œufs durs** d'une chute de **50 cm**. Succès si 2 œufs sur 3 survivent intacts.
 
-**Boîte de matériaux** (à préparer):
+**Boîte de matériaux** (à préparer à l'avance):
 - 2 boîtes d'œufs vides
 - 3 rouleaux de papier toilette
 - 1 feuille de papier journal
 - 50 cm de ficelle
 - 5 élastiques
 - 30 cm de ruban adhésif
-- Quelques bouchons de liège
+- quelques bouchons de liège
 
-*L'adulte prépare les œufs durs à l'avance. Le test se fait depuis exactement 50 cm de hauteur — utiliser une règle.*
+*Le test se fait depuis exactement 50 cm mesurés à la règle. Les adultes ne donnent aucun conseil pendant la construction.*
 
-**Si réussi**: l'Enveloppe 5 est remise en main propre par l'adulte.
+**Si réussi**: l'adulte remet le **Chiffre 3 du cadenas** sur un carton:
 
-**L'Enveloppe 5** contient uniquement:
+> *"Votre troisième chiffre: le nombre d'œufs dans votre nid."*
+> → **3**
 
-> *"La course commence dehors. Votre mère vous attend à l'allée."*
+Et annonce: *"La prochaine épreuve est dehors."*
 
 ---
 
@@ -231,112 +263,122 @@ Chaque lettre = la forme de sa case (avec un point pour les lettres de la 2e gri
 
 **Lieu**: Allée ou cour — **EXTÉRIEUR**
 **Durée**: 15-20 min
-**Juge**: la mère
-**Matériel**: vélos, craie (pour tracer les lignes)
+**Juge**: la mère (chronomètre sur téléphone)
+**Matériel**: vélos, craie, chronomètre
 
-**Préparation du terrain**: tracer à la craie deux lignes parallèles distantes de ~1,5 m sur une longueur de ~8-10 m. Ligne de départ et ligne d'arrivée.
+**Préparation du terrain**: tracer à la craie deux lignes parallèles (~1,5 m de largeur) sur 8-10 m. Ligne de départ et ligne d'arrivée.
 
-**Règles** (lire à voix haute avant le départ):
-1. Le **dernier à franchir la ligne d'arrivée gagne**
-2. Interdiction de poser le pied à terre
-3. Interdiction de sortir des lignes
-4. Pied au sol ou sortie de piste = pénalité de 5 secondes ET retour à la position de départ
-5. Les deux partent en même temps
+### Règles — Version Collaborative
 
-*Prévoir plusieurs manches. La première est toujours une prise en main — c'est la deuxième ou troisième qui devient épique.*
+Cette course n'a **pas de gagnant individuel**. Les deux enfants jouent en équipe contre le chronomètre.
 
-**Le gagnant** (le plus lent) reçoit de la main du juge:
-- **Chiffre 3 du cadenas**:
-  > *"Combien de lettres dans NABUZOKO?" → 8 ÷ 2 = **4***
-  *(Adapter selon le chiffre souhaité)*
+1. Les deux partent en même temps
+2. Le juge chronomètre chaque enfant séparément (noter les deux temps)
+3. **La somme des deux temps doit dépasser le seuil affiché** pour réussir
+4. Pied au sol = le temps de cet enfant s'arrête là (pénalité: −10 secondes sur son temps)
+5. Sortir des lignes = même pénalité
+6. Plusieurs manches possibles — les enfants peuvent s'organiser entre eux
+
+**Seuil suggéré**: afficher **90 secondes** au départ (soit ~45s de moyenne chacun sur la piste).
+
+*Ce format oblige les enfants à se concerter: si l'un est à l'aise et rapide, il doit s'adapter pour que la somme passe le seuil. La stratégie remplace la rivalité.*
+
+**Si la somme dépasse le seuil**: l'adulte remet le dernier œuf contenant:
+- **Chiffre 4 du cadenas**:
+  > *"Lettres dans NABUZOKO divisées par deux."*
+  > → 8 ÷ 2 = **4**
 - **Distance 2 pour la triangulation**:
-  > *"Le trésor est aussi à [Y] mètres du [point de référence B — ex: le coin de la terrasse / le robinet extérieur / le poteau de la clôture]."*
+  > *"Le trésor est aussi à ___ mètres de [point de référence B]."*
 
 ---
 
 ## ÉTAPE 7 — La Triangulation `[O01]`
 
-**Lieu**: Intérieur d'abord, puis extérieur
+**Lieu**: Intérieur d'abord (calcul), puis extérieur (localisation)
 **Durée**: 15-20 min
-**Matériel**: plan du jardin (dessiné à l'avance), ficelle, crayon, règle
+**Matériel**: plan du jardin, ficelle, crayon
 
-### Le Plan du Jardin
+### Préparer le Plan du Jardin (J-1)
 
-Dessiner à la main un plan à l'échelle simple (ex: 1 cm = 1 m, ou 1 cm = 0,5 m).
-- Indiquer les deux points de référence (A et B) utilisés dans les distances
+Dessiner à la main un plan à l'échelle (ex: 1 cm = 1 m).
+- Indiquer clairement les deux points de référence A et B
 - Ne pas marquer le trésor
+- Écrire l'échelle en bas du plan
 
-**Instructions données aux enfants** (sur une carte dans l'Enveloppe 6):
+### Instructions données aux enfants (dans l'œuf)
 
-> *"Vous avez deux distances et deux points de repère. Utilisez la ficelle comme compas.*
+> *Vous avez deux distances depuis deux points connus. C'est tout ce qu'il vous faut.*
 >
-> *Étape 1: Depuis le point A sur le plan, tracez un arc de cercle de rayon [Distance 1 convertie à l'échelle].*
-> *Étape 2: Depuis le point B sur le plan, tracez un arc de cercle de rayon [Distance 2 convertie à l'échelle].*
-> *Étape 3: Là où les deux arcs se croisent — c'est le X.*
+> *1. Coupez un bout de ficelle égal à [Distance 1 à l'échelle] sur le plan.*
+> *Posez un doigt sur le point A. Tracez un arc au crayon.*
 >
-> *Allez à cet endroit dans le vrai jardin. Le trésor est sous vos pieds."*
+> *2. Coupez un autre bout de ficelle égal à [Distance 2 à l'échelle].*
+> *Posez un doigt sur le point B. Tracez un second arc.*
+>
+> *3. Là où les deux arcs se croisent: c'est le X. Allez à cet endroit dans le jardin.*
+> *Le trésor de Nabuzoko est sous vos pieds.*
 
-**Comment utiliser la ficelle comme compas**: couper un bout de ficelle à la longueur de la distance à l'échelle. Poser un doigt sur le point A, tendre la ficelle et tracer l'arc au crayon. Répéter depuis B.
-
-*Accompagner sans aider — les laisser raisonner ensemble.*
+*Accompagner sans intervenir. Les laisser raisonner. S'ils bloquent, la seule aide autorisée est: "Qu'est-ce que vous cherchez à faire?"*
 
 ---
 
-## FINALE — Le Trésor Enfoui
+## FINALE — Le Trésor
 
 **Lieu**: Jardin
-**Matériel**: petite pelle ou truelle (préparée à l'avance, posée dans le jardin)
+**Matériel**: petite pelle ou truelle (posée dans le jardin à l'avance)
 
-Les enfants arrivent à l'intersection, cherchent la pelle et creusent à ~15 cm de profondeur. Le coffre est enveloppé dans un sac étanche (sac Ziploc) pour protéger du froid et de l'humidité.
+Les enfants creusent à ~15 cm. Le coffre est dans un sac Ziploc étanche.
 
-Ils ouvrent le cadenas avec les trois chiffres collectés.
+Ils ouvrent le cadenas avec le code assemblé durant la chasse.
 
 ---
 
 ## Le Cadenas — Récapitulatif
 
-| Chiffre | Étape | Calcul |
+| # | Étape | Calcul |
 |---|---|---|
-| **Chiffre 1** | Étape 1 (miroir) | Pattes d'un lapin ÷ 2 = 4 ÷ 2 = **2** |
-| **Chiffre 2** | Étape 3 (Pig Pen) | Lettres dans LAPIN + 1 = 5 + 1 = **6** |
-| **Chiffre 3** | Étape 6 (vélo) | Lettres dans NABUZOKO ÷ 2 = 8 ÷ 2 = **4** |
-| **→ Code** | | **2 - 6 - 4** |
+| **Chiffre 1** | Étape 1 — miroir | Pattes d'un lapin ÷ 2 → **2** |
+| **Chiffre 2** | Étape 3 — Pig Pen | Lettres dans PÂQUES − 2 → **4** |
+| **Chiffre 3** | Étape 5 — nid | Nombre d'œufs dans le nid → **3** |
+| **Chiffre 4** | Étape 6 — vélo | Lettres dans NABUZOKO ÷ 2 → **4** |
+| **→ Code** | | **2 - 4 - 3 - 4** |
 
-*Si le cadenas acheté a un autre format (4 chiffres, combinaison différente), adapter les calculs. Vérifier le code sur le cadenas **avant** de l'utiliser.*
+⚠️ *Vérifier que ce code ouvre bien le cadenas acheté **avant** de l'utiliser. Si le cadenas a un code par défaut différent, recalculer les formules en conséquence.*
 
 ---
 
 ## La Triangulation — À Compléter
 
-Les distances réelles dépendent de l'endroit exact où le coffre sera enterré. À mesurer à l'avance avec un mètre ruban.
-
-| | Point de référence | Distance réelle | Distance sur plan (1cm=1m) |
+| | Point de référence | Distance réelle | Distance sur plan |
 |---|---|---|---|
-| **Distance 1** | *[ex: le grand arbre]* | ___ m | ___ cm |
-| **Distance 2** | *[ex: le coin de la terrasse]* | ___ m | ___ cm |
+| **Distance 1** | *(à choisir: arbre, cabanon, coin de terrasse...)* | ___ m | ___ cm |
+| **Distance 2** | *(à choisir: clôture, robinet, autre angle...)* | ___ m | ___ cm |
 
-**Conseil**: choisir deux points de référence éloignés l'un de l'autre (au moins 5 m), fixes et clairement identifiables. L'intersection des deux arcs doit tomber à l'intérieur du jardin et à distance raisonnable des deux points.
+**Conseil**: choisir deux points éloignés l'un de l'autre (5 m minimum) et bien visibles. Tester que l'intersection tombe bien dans le jardin et pas sur un obstacle. Mesurer au mètre ruban.
 
 ---
 
-## Checklist Préparation (J-1)
+## Checklist J-1
 
-**La veille au soir:**
-- [ ] Écrire le message à l'encre invisible (citron) et sécher
-- [ ] Préparer les 7 enveloppes avec leur contenu
-- [ ] Écrire et tester le message Pig Pen (C07) — vérifier le décodage
-- [ ] Créer le message code à deux clés (C13) — vérifier le décodage
-- [ ] Mesurer les distances pour la triangulation, compléter le tableau ci-dessus
+- [ ] Écrire la partie encre invisible (citron) sur la lettre — laisser sécher
+- [ ] Imprimer ou écrire la partie visible de la lettre
+- [ ] Tester la révélation à la bougie sur un brouillon
+- [ ] Préparer et tester le message Pig Pen (décodage vérifié)
+- [ ] Préparer et tester le message code à deux clés (décodage vérifié)
+- [ ] Mesurer les distances, compléter le tableau ci-dessus
 - [ ] Dessiner le plan du jardin à l'échelle
-- [ ] Préparer la boîte de matériaux récupérés (Étape 5)
-- [ ] Cuire les 3 œufs durs (Étape 5)
-- [ ] Mettre le coffre dans un sac étanche et **enterrer à l'avance** (si sol non gelé)
-- [ ] Vérifier que le code **2-6-4** ouvre bien le cadenas
-- [ ] Placer toutes les enveloppes à leurs emplacements respectifs
-- [ ] Vérifier les vélos (pneus gonflés, freins OK)
+- [ ] Préparer la boîte de matériaux récupérés
+- [ ] Cuire les 3 œufs durs
+- [ ] Placer le chiffre 3 dans l'enveloppe de l'Étape 5
+- [ ] Vérifier que le code **2-4-3-4** ouvre bien le cadenas
+- [ ] Mettre le coffre dans un sac Ziploc et **enterrer à l'avance**
+- [ ] Placer tous les œufs plastiques à leurs emplacements
+- [ ] Poser la petite pelle dans le jardin
+- [ ] Vérifier les vélos (pneus, freins)
+- [ ] Briefer la mère: rôle de juge aux Étapes 2 et 6, chronomètre pour E6
 
-**Le matin de Pâques:**
-- [ ] Poser la feuille vierge + sèche-cheveux + post-it sur la table du petit-déjeuner
-- [ ] Vérifier que le miroir est bien dans l'Enveloppe 1
-- [ ] Confirmer avec la mère son rôle de juge (Étapes 2 et 6)
-- [ ] Sortir la petite pelle dans le jardin
+## Checklist Matin de Pâques
+
+- [ ] Poser la lettre + bougie + allumettes sur la table du petit-déjeuner
+- [ ] Vérifier que le miroir est bien dans l'œuf de l'Étape 1
+- [ ] Confirmer le seuil de temps à afficher pour l'Étape 6 (suggéré: 90s)
