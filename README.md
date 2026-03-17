@@ -2,11 +2,13 @@
 
 > *Le lapin de Pâques qui cache des trésors impossibles à trouver... sauf pour les plus malins.*
 
+![Nabuzoko](nabuzoko.png)
+
 ---
 
 ## L'histoire derrière ce projet
 
-Il y a quelques décennies, dans une maison de campagne familiale à **Sainte-Foy-la-Grande**, en Dordogne, un père et son frère organisaient chaque année une chasse au trésor qui défie encore la mémoire de ceux qui y ont participé.
+Il y a quelques décennies, dans une maison de campagne familiale à **Sainte-Foy-la-Grande**, en Dordogne, un père et son beau-frère organisaient chaque année une chasse au trésor qui défie encore la mémoire de ceux qui y ont participé.
 
 Ce n'était pas une chasse aux œufs ordinaire.
 
@@ -62,7 +64,7 @@ Dernière étape : creuser pour déterrer le trésor
 
 ## Contexte météo — Québec, début avril
 
-Le projet a été conçu pour Pâques à **Québec, QC** (~46°N), où début avril signifie:
+Le projet a été conçu pour Pâques au **Québec** (~46°N), où début avril signifie:
 - Températures: -1°C la nuit / +5 à +9°C le jour
 - Possibilité de neige résiduelle ou de nouvelles chutes
 - Sol humide, bottes recommandées
@@ -85,4 +87,4 @@ L'objectif à long terme: une banque d'activités aussi riche et diverse que les
 
 ---
 
-*Pour papa et son frère, qui ont tout inventé.*
+*Pour papa et le kakou-chef, qui ont tout inventé.*
