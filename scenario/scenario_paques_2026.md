@@ -173,7 +173,7 @@ Grille 3 (sans point):        Grille 4 (avec point):
 
 ### Le message à encoder
 
-Choisir un lieu de la maison (ex: SOUS LE LIT, DERRIÈRE LE CANAPÉ, DANS LE PLACARD). Encoder lettre par lettre avec la grille. **Tester le décodage avant la chasse.**
+Message: **CABANE AUX LAPINS** — déjà encodé dans `etape3_pigpen.html`, prêt à imprimer.
 
 ### Chiffre 2 du cadenas
 
@@ -193,11 +193,11 @@ Trop complexe — préférer:
 
 ## ÉTAPE 4 — Le Code à Deux Clés `[C13]`
 
-**Lieu**: Intérieur
+**Lieu**: Intérieur (là où ils ouvrent l'œuf de la cabane des lapins)
 **Durée**: 10-15 min
 **Difficulté**: ⚡⚡ — **aucun des deux ne peut finir seul**
 
-**Dans l'œuf**: deux petits papiers pliés séparément + message à déchiffrer sur un carton.
+**Dans l'œuf de la cabane**: deux petits papiers pliés séparément + carton avec le message.
 
 **Papier de l'enfant A** (remettre sans que l'autre voie):
 ```
@@ -209,21 +209,15 @@ A=① B=② C=③ D=④ E=⑤ F=⑥ G=⑦ H=⑧ I=⑨ J=⑩ K=⑪ L=⑫ M=⑬
 N=⑭ O=⑮ P=⑯ Q=⑰ R=⑱ S=⑲ T=⑳ U=㉑ V=㉒ W=㉓ X=㉔ Y=㉕ Z=㉖
 ```
 
-**Message à déchiffrer** (sur un carton, visible de tous):
+**Message à déchiffrer** — destination: **LA MONSTERA**
 
-Choisir un lieu de la maison, l'encoder avec les numéros, écrire la séquence sur le carton.
-
-Exemple — "SOUS LE BUFFET":
 ```
-⑲ ⑮ ㉑ ⑲   ⑫ ⑤   ② ㉑ ⑥ ⑥ ⑤ ㄒ
+⑫ ①     ⑬ ⑮ ⑭ ⑲ ⑳ ⑤ ⑱ ①
 ```
-*(Remplacer par votre lieu réel — voir Note de préparation)*
 
-> **Note de préparation**: encoder le message APRÈS avoir choisi le lieu. Écrire chaque lettre, chercher son numéro dans le bon papier (A = papier A pour A-M, papier B pour N-Z), noter la séquence. Tester le décodage à rebours avant la chasse.
+*Les enfants s'assoient côte à côte. Enfant A décode les ①–⑬ (lettres A–M), enfant B décode les ⑭–㉖ (lettres N–Z). Impossible de finir seul — MONSTERA contient des lettres des deux moitiés.*
 
-*Les enfants s'assoient côte à côte. Enfant A décode les chiffres 1-13, enfant B décode les chiffres 14-26. Impossible de finir seul.*
-
-**Dans l'œuf à l'emplacement révélé**: **Distance 1 pour la triangulation**.
+**Dans l'œuf caché dans le pot de la Monstera**: **Distance 1 pour la triangulation** + instructions Étape 5.
 
 > *"Le trésor de Nabuzoko est à ___ mètres de [point de référence A]."*
 *(À compléter — voir section Triangulation)*
