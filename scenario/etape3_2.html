@@ -3,267 +3,141 @@
 <head>
   <meta charset="UTF-8">
   <title>Nabuzoko — Clé II (N–Z)</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
   <style>
-    @page { size: A5; margin: 1.2cm; }
+    @page { size: A5 landscape; margin: 1.2cm; }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
-      background: #d8e8d0;  /* vert pâle pour distinguer visuellement des deux pages */
+      background: #c8d8c0;
       font-family: 'Lora', serif;
       padding: 1.2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 1.2rem;
-      min-height: 100vh;
+      gap: 1rem;
     }
-
-    h1 {
-      font-family: 'Cinzel Decorative', serif;
-      font-size: 1.1rem;
-      color: #1a3a10;
-      text-align: center;
-    }
-    .subtitle {
-      font-size: 0.82rem;
-      color: #3a6020;
-      text-align: center;
-      font-style: italic;
-      margin-top: 0.2rem;
-    }
-
+    h1 { font-family: 'Cinzel Decorative', serif; font-size: 1.1rem; color: #1a3a10; text-align: center; }
+    .subtitle { font-size: 0.82rem; color: #3a6020; text-align: center; font-style: italic; }
     .card {
-      background: #f0fae8;
+      background: #eef8e8;
       border: 2px solid #4a7030;
       border-radius: 4px;
-      padding: 1rem 1.3rem;
-      width: 100%;
-      max-width: 480px;
+      padding: 1rem 1.5rem;
+      width: 100%; max-width: 600px;
       box-shadow: 3px 4px 10px rgba(0,0,0,0.18);
     }
+    .card h2 { font-family: 'Cinzel Decorative', serif; font-size: 0.85rem; color: #1a3a10; text-align: center; margin-bottom: 1rem; }
 
-    .card h2 {
-      font-family: 'Cinzel Decorative', serif;
-      font-size: 0.8rem;
-      color: #1a3a10;
-      text-align: center;
-      margin-bottom: 1rem;
-      letter-spacing: 0.05em;
-    }
-
-    /* Symboles grille carrée */
     .sym {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 34px;
-      height: 34px;
-      border-color: #1a3a10;
-      border-style: solid;
-      border-width: 0;
-      position: relative;
-      flex-shrink: 0;
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 38px; height: 38px;
+      border-color: #1a3a10; border-style: solid; border-width: 0;
+      position: relative; flex-shrink: 0;
     }
-
     .sym.dot::after {
-      content: '';
-      position: absolute;
-      width: 7px; height: 7px;
-      background: #8b1010;
-      border-radius: 50%;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
+      content: ''; position: absolute; width: 8px; height: 8px;
+      background: #8b1010; border-radius: 50%;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
     }
+    /* N–R avec point (mêmes formes que E–I) */
+    .pg-N { border-width: 2.5px; }
+    .pg-O { border-top-width: 2.5px; border-left-width: 2.5px; border-bottom-width: 2.5px; }
+    .pg-P { border-top-width: 2.5px; border-right-width: 2.5px; }
+    .pg-Q { border-top-width: 2.5px; border-left-width: 2.5px; border-right-width: 2.5px; }
+    .pg-R { border-top-width: 2.5px; border-left-width: 2.5px; }
 
-    /* Grille N–R (avec point) — mêmes formes que E–I */
-    .pg-N { border-width: 2.5px; }                                                          /* = E */
-    .pg-O { border-top-width: 2.5px; border-left-width:  2.5px; border-bottom-width: 2.5px; } /* = F */
-    .pg-P { border-top-width: 2.5px; border-right-width: 2.5px; }                           /* = G */
-    .pg-Q { border-top-width: 2.5px; border-left-width:  2.5px; border-right-width: 2.5px; } /* = H */
-    .pg-R { border-top-width: 2.5px; border-left-width:  2.5px; }                           /* = I */
+    .ref-row { display: flex; justify-content: center; gap: 0.8rem; flex-wrap: wrap; }
+    .ref-cell { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+    .ref-letter { font-size: 0.8rem; font-weight: bold; color: #1a3a10; }
+    .divider { border-top: 1px dashed #4a7030; margin: 0.8rem 0; }
+    .section-label { font-size: 0.75rem; color: #3a6020; font-style: italic; text-align: center; margin-bottom: 0.5rem; }
 
-    .ref-section { margin-bottom: 0.8rem; }
-    .ref-label {
-      font-size: 0.72rem;
-      color: #3a6020;
-      font-style: italic;
-      margin-bottom: 0.5rem;
-      text-align: center;
-    }
-    .ref-row {
-      display: flex;
-      justify-content: center;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-    }
-    .ref-cell {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3px;
-    }
-    .ref-letter {
-      font-size: 0.72rem;
-      font-weight: bold;
-      color: #1a3a10;
-    }
-    .divider {
-      border-top: 1px dashed #4a7030;
-      margin: 0.7rem 0;
-    }
+    .sym svg { width: 38px; height: 38px; }
 
-    .message-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 5px;
-      margin-bottom: 0.5rem;
-    }
-    .word-gap { width: 16px; flex-shrink: 0; }
-
-    .sym svg { width: 34px; height: 34px; }
-
-    /* SVG stroke couleur verte pour cette page */
-    .sym svg line { stroke: #1a3a10; }
-    .sym svg circle { fill: #8b1010; }
-
-    /* Override pour message (même couleur que page 1 pour cohérence) */
-    .message-row .sym svg line  { stroke: #1a3a10; }
-
-    .note {
+    .warning {
       margin-top: 0.8rem;
-      padding: 0.5rem 0.8rem;
-      border: 1px dashed rgba(74,112,48,0.5);
+      padding: 0.5rem 1rem;
+      background: rgba(74,112,48,0.1);
+      border: 1px solid rgba(74,112,48,0.4);
       border-radius: 3px;
-      font-size: 0.75rem;
-      color: #2a5015;
-      text-align: center;
-      font-style: italic;
-      line-height: 1.6;
+      font-size: 0.78rem; color: #2a5015; text-align: center; font-style: italic;
     }
-
-    @media print {
-      body { background: white; padding: 0; }
-      .card { box-shadow: none; }
-    }
+    @media print { body { background: white; } .card { box-shadow: none; } }
   </style>
 </head>
 <body>
 
 <div>
   <h1>🐰 Clé II — Lettres N à Z</h1>
-  <p class="subtitle">Ta moitié du code Pig Pen — garde-la pour toi</p>
+  <p class="subtitle">Ta moitié du code Pig Pen · Ne montre pas ta page à ton équipier</p>
 </div>
 
-<!-- GRILLE N–Z -->
 <div class="card">
   <h2>Ta grille de déchiffrement</h2>
 
-  <div class="ref-section">
-    <p class="ref-label">Lettres N à R — avec point •</p>
-    <div class="ref-row">
-      <div class="ref-cell"><div class="sym pg-N dot"></div><span class="ref-letter">N</span></div>
-      <div class="ref-cell"><div class="sym pg-O dot"></div><span class="ref-letter">O</span></div>
-      <div class="ref-cell"><div class="sym pg-P dot"></div><span class="ref-letter">P</span></div>
-      <div class="ref-cell"><div class="sym pg-Q dot"></div><span class="ref-letter">Q</span></div>
-      <div class="ref-cell"><div class="sym pg-R dot"></div><span class="ref-letter">R</span></div>
+  <p class="section-label">Lettres N à R — avec point •</p>
+  <div class="ref-row">
+    <div class="ref-cell"><div class="sym pg-N dot"></div><span class="ref-letter">N</span></div>
+    <div class="ref-cell"><div class="sym pg-O dot"></div><span class="ref-letter">O</span></div>
+    <div class="ref-cell"><div class="sym pg-P dot"></div><span class="ref-letter">P</span></div>
+    <div class="ref-cell"><div class="sym pg-Q dot"></div><span class="ref-letter">Q</span></div>
+    <div class="ref-cell"><div class="sym pg-R dot"></div><span class="ref-letter">R</span></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <p class="section-label">Lettres S à V — croix sans point · chaque lettre = l'angle de sa position</p>
+  <div class="ref-row">
+    <!-- S: gauche → pointe droite -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="5" y1="19" x2="33" y2="5"  stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="5" y1="19" x2="33" y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+      <span class="ref-letter">S</span>
+    </div>
+    <!-- T: haut → pointe bas -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="19" y1="5" x2="5"  y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="19" y1="5" x2="33" y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+      <span class="ref-letter">T</span>
+    </div>
+    <!-- U: droite → pointe gauche -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="33" y1="19" x2="5" y2="5"  stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="33" y1="19" x2="5" y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+      <span class="ref-letter">U</span>
+    </div>
+    <!-- V: bas → pointe haut -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="19" y1="33" x2="5"  y2="5" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="19" y1="33" x2="33" y2="5" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+      <span class="ref-letter">V</span>
     </div>
   </div>
 
   <div class="divider"></div>
 
-  <div class="ref-section">
-    <p class="ref-label">Lettres S à V — croix, sans point</p>
-    <div class="ref-row">
-      <!-- S: gauche → ">" -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="4" y1="17" x2="30" y2="4"  stroke-width="2.5" stroke-linecap="round"/><line x1="4" y1="17" x2="30" y2="30" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-        <span class="ref-letter">S</span>
-      </div>
-      <!-- T: haut → "V" -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="17" y1="4" x2="4"  y2="30" stroke-width="2.5" stroke-linecap="round"/><line x1="17" y1="4" x2="30" y2="30" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-        <span class="ref-letter">T</span>
-      </div>
-      <!-- U: droite → "<" -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="30" y1="17" x2="4" y2="4"  stroke-width="2.5" stroke-linecap="round"/><line x1="30" y1="17" x2="4" y2="30" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-        <span class="ref-letter">U</span>
-      </div>
-      <!-- V: bas → "Λ" -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="17" y1="30" x2="4"  y2="4" stroke-width="2.5" stroke-linecap="round"/><line x1="17" y1="30" x2="30" y2="4" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-        <span class="ref-letter">V</span>
-      </div>
+  <p class="section-label">Lettres W à Z — croix avec point •</p>
+  <div class="ref-row">
+    <!-- W: gauche + point -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="5" y1="19" x2="33" y2="5"  stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="5" y1="19" x2="33" y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><circle cx="19" cy="19" r="4" fill="#8b1010"/></svg></div>
+      <span class="ref-letter">W</span>
+    </div>
+    <!-- X: haut + point -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="19" y1="5" x2="5"  y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="19" y1="5" x2="33" y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><circle cx="19" cy="19" r="4" fill="#8b1010"/></svg></div>
+      <span class="ref-letter">X</span>
+    </div>
+    <!-- Y: droite + point -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="33" y1="19" x2="5" y2="5"  stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="33" y1="19" x2="5" y2="33" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><circle cx="19" cy="19" r="4" fill="#8b1010"/></svg></div>
+      <span class="ref-letter">Y</span>
+    </div>
+    <!-- Z: bas + point -->
+    <div class="ref-cell">
+      <div class="sym"><svg viewBox="0 0 38 38"><line x1="19" y1="33" x2="5"  y2="5" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="19" y1="33" x2="33" y2="5" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><circle cx="19" cy="19" r="4" fill="#8b1010"/></svg></div>
+      <span class="ref-letter">Z</span>
     </div>
   </div>
 
-  <div class="divider"></div>
-
-  <div class="ref-section">
-    <p class="ref-label">Lettres W à Z — croix, avec point •</p>
-    <div class="ref-row">
-      <!-- W: gauche + dot -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="4" y1="17" x2="30" y2="4"  stroke-width="2.5" stroke-linecap="round"/><line x1="4" y1="17" x2="30" y2="30" stroke-width="2.5" stroke-linecap="round"/><circle cx="17" cy="17" r="3.5"/></svg></div>
-        <span class="ref-letter">W</span>
-      </div>
-      <!-- X: haut + dot -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="17" y1="4" x2="4"  y2="30" stroke-width="2.5" stroke-linecap="round"/><line x1="17" y1="4" x2="30" y2="30" stroke-width="2.5" stroke-linecap="round"/><circle cx="17" cy="17" r="3.5"/></svg></div>
-        <span class="ref-letter">X</span>
-      </div>
-      <!-- Y: droite + dot -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="30" y1="17" x2="4" y2="4"  stroke-width="2.5" stroke-linecap="round"/><line x1="30" y1="17" x2="4" y2="30" stroke-width="2.5" stroke-linecap="round"/><circle cx="17" cy="17" r="3.5"/></svg></div>
-        <span class="ref-letter">Y</span>
-      </div>
-      <!-- Z: bas + dot -->
-      <div class="ref-cell">
-        <div class="sym"><svg viewBox="0 0 34 34"><line x1="17" y1="30" x2="4"  y2="4" stroke-width="2.5" stroke-linecap="round"/><line x1="17" y1="30" x2="30" y2="4" stroke-width="2.5" stroke-linecap="round"/><circle cx="17" cy="17" r="3.5"/></svg></div>
-        <span class="ref-letter">Z</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- MESSAGE (mêmes symboles que page 3.1) -->
-<div class="card">
-  <h2>Message à déchiffrer</h2>
-  <p class="ref-label" style="margin-bottom:0.7rem">Décode les symboles que tu connais — demande à ton équipier pour les autres</p>
-
-  <div class="message-row">
-    <!-- C (grille A-I) --> <div class="sym" style="border-left-width:2.5px;border-bottom-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- A (grille A-I) --> <div class="sym" style="border-right-width:2.5px;border-bottom-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- B (grille A-I) --> <div class="sym" style="border-left-width:2.5px;border-right-width:2.5px;border-bottom-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- A --> <div class="sym" style="border-right-width:2.5px;border-bottom-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- N (grille J-R, centre + dot) --> <div class="sym pg-N dot"></div>
-    <!-- E (grille A-I, centre) --> <div class="sym" style="border-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-
-    <div class="word-gap"></div>
-
-    <!-- A --> <div class="sym" style="border-right-width:2.5px;border-bottom-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- U: droite, sans dot -->
-    <div class="sym"><svg viewBox="0 0 34 34"><line x1="30" y1="17" x2="4" y2="4"  stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="30" y1="17" x2="4" y2="30" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-    <!-- X: haut + dot -->
-    <div class="sym"><svg viewBox="0 0 34 34"><line x1="17" y1="4" x2="4"  y2="30" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="17" y1="4" x2="30" y2="30" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><circle cx="17" cy="17" r="3.5" fill="#8b1010"/></svg></div>
-
-    <div class="word-gap"></div>
-
-    <!-- L (grille J-R, coin HD + dot) --> <div class="sym pg-L dot" style="border-color:#1a3a10;"></div>
-    <!-- A --> <div class="sym" style="border-right-width:2.5px;border-bottom-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- P (grille J-R, coin BG + dot = G shape + dot) --> <div class="sym pg-P dot" style="border-color:#1a3a10;"></div>
-    <!-- I (grille A-I, coin BD) --> <div class="sym" style="border-top-width:2.5px;border-left-width:2.5px;border-color:#1a3a10;border-style:solid;"></div>
-    <!-- N (grille J-R, centre + dot) --> <div class="sym pg-N dot"></div>
-    <!-- S: gauche, sans dot -->
-    <div class="sym"><svg viewBox="0 0 34 34"><line x1="4" y1="17" x2="30" y2="4"  stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/><line x1="4" y1="17" x2="30" y2="30" stroke="#1a3a10" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-  </div>
-
-  <div class="note">
-    La réponse révèle où se cache le prochain œuf de Nabuzoko.
+  <div class="warning">
+    Pour les symboles que tu ne reconnais pas → demande à ton équipier qui a la Clé I
   </div>
 </div>
 

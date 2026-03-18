@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nabuzoko — Message 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A5; margin: 1.5cm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #f5ead0;
+      font-family: 'Lora', serif;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      min-height: 100vh;
+    }
+    h1 { font-family: 'Cinzel Decorative', serif; font-size: 1.2rem; color: #3a2005; text-align: center; }
+    .subtitle { font-size: 0.85rem; color: #7a4f1a; text-align: center; font-style: italic; }
+
+    .card {
+      background: rgba(253,246,227,0.9);
+      border: 2.5px solid #8b6030;
+      border-radius: 4px;
+      padding: 1.8rem 2rem;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 4px 5px 14px rgba(0,0,0,0.25);
+    }
+    .card h2 { font-family: 'Cinzel Decorative', serif; font-size: 0.9rem; color: #4a2a08; text-align: center; margin-bottom: 1.5rem; }
+
+    .sym {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px;
+      border-color: #3a2005; border-style: solid; border-width: 0;
+      position: relative; flex-shrink: 0;
+    }
+    .sym.dot::after {
+      content: ''; position: absolute; width: 9px; height: 9px;
+      background: #8b1010; border-radius: 50%;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+    }
+    .pg-A { border-right-width: 3px; border-bottom-width: 3px; }
+    .pg-B { border-left-width: 3px; border-right-width: 3px; border-bottom-width: 3px; }
+    .pg-C { border-left-width: 3px; border-bottom-width: 3px; }
+    .pg-E { border-width: 3px; }
+    .pg-G { border-top-width: 3px; border-right-width: 3px; }
+    .pg-I { border-top-width: 3px; border-left-width: 3px; }
+    /* avec point */
+    .pg-L { border-left-width: 3px; border-bottom-width: 3px; }   /* = C + dot */
+    .pg-N { border-width: 3px; }                                   /* = E + dot */
+    .pg-P { border-top-width: 3px; border-right-width: 3px; }     /* = G + dot */
+
+    .sym svg { width: 44px; height: 44px; }
+
+    .message-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 1rem;
+    }
+    .word-gap { width: 20px; flex-shrink: 0; }
+
+    .instruction {
+      margin-top: 1.2rem;
+      padding: 0.6rem 1rem;
+      border: 1px dashed rgba(120,80,20,0.45);
+      border-radius: 3px;
+      font-size: 0.8rem; color: #5a3810; text-align: center;
+      font-style: italic; line-height: 1.7;
+    }
+    @media print { body { background: white; } .card { box-shadow: none; } }
+  </style>
+</head>
+<body>
+
+<div>
+  <h1>🐰 Message de Nabuzoko</h1>
+  <p class="subtitle">Utilisez vos deux clés ensemble pour déchiffrer</p>
+</div>
+
+<div class="card">
+  <h2>— Étape 3 —</h2>
+
+  <!-- CABANE AUX LAPINS -->
+  <div class="message-row">
+    <!-- C --> <div class="sym pg-C"></div>
+    <!-- A --> <div class="sym pg-A"></div>
+    <!-- B --> <div class="sym pg-B"></div>
+    <!-- A --> <div class="sym pg-A"></div>
+    <!-- N → pg-N (=E + dot) --> <div class="sym pg-N dot"></div>
+    <!-- E --> <div class="sym pg-E"></div>
+    <div class="word-gap"></div>
+    <!-- A --> <div class="sym pg-A"></div>
+    <!-- U: droite, sans point --> <div class="sym"><svg viewBox="0 0 44 44"><line x1="38" y1="22" x2="6" y2="6"  stroke="#3a2005" stroke-width="3" stroke-linecap="round"/><line x1="38" y1="22" x2="6" y2="38" stroke="#3a2005" stroke-width="3" stroke-linecap="round"/></svg></div>
+    <!-- X: haut, avec point --> <div class="sym"><svg viewBox="0 0 44 44"><line x1="22" y1="6" x2="6"  y2="38" stroke="#3a2005" stroke-width="3" stroke-linecap="round"/><line x1="22" y1="6" x2="38" y2="38" stroke="#3a2005" stroke-width="3" stroke-linecap="round"/><circle cx="22" cy="22" r="5" fill="#8b1010"/></svg></div>
+    <div class="word-gap"></div>
+    <!-- L → pg-L (=C + dot) --> <div class="sym pg-L dot"></div>
+    <!-- A --> <div class="sym pg-A"></div>
+    <!-- P → pg-P (=G + dot) --> <div class="sym pg-P dot"></div>
+    <!-- I --> <div class="sym pg-I"></div>
+    <!-- N → pg-N (=E + dot) --> <div class="sym pg-N dot"></div>
+    <!-- S: gauche, sans point --> <div class="sym"><svg viewBox="0 0 44 44"><line x1="6" y1="22" x2="38" y2="6"  stroke="#3a2005" stroke-width="3" stroke-linecap="round"/><line x1="6" y1="22" x2="38" y2="38" stroke="#3a2005" stroke-width="3" stroke-linecap="round"/></svg></div>
+  </div>
+
+  <div class="instruction">
+    Clé I déchiffre certains symboles · Clé II déchiffre les autres<br>
+    La réponse vous dit où chercher le prochain œuf.
+  </div>
+</div>
+
+</body>
+</html>
