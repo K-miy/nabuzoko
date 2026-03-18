@@ -112,12 +112,14 @@ Passer lentement le papier **au-dessus** d'une bougie allumée, à 5-8 cm de la 
 **Difficulté**: ⚡
 **Dans l'œuf**: Message écrit à l'envers + miroir de poche (ils le gardent pour toute la chasse)
 
-**Message à écrire à l'envers** *(tester avec un miroir avant d'écrire la version finale)*:
+**Message** (généré en page HTML — voir `etape1_miroir.html`):
 
-> *Vingt échanges de balles sans en faire tomber une seule.*
-> *Votre premier chiffre: le nombre de pattes d'un lapin, divisé par deux.*
+> *Vingt échanges de balles, pas un de moins.*
+>
+> *Ton premier chiffre :*
+> *(nombre de pattes d'un lapin × nombre d'oreilles de Nabuzoko) ÷ nombre de saisons dans une année*
 
-**→ Chiffre 1 du cadenas**: 4 ÷ 2 = **2**
+**→ Chiffre 1 du cadenas**: (4 × 2) ÷ 4 = **2**
 
 L'œuf contient aussi l'indication que l'œuf n°2 sera remis par un adulte une fois l'épreuve réussie.
 
