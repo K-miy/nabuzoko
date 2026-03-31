@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>RIP — Mission 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pigpen.css">
+  <style>
+    @page { size: A5; margin: 1.5cm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #e8e4d8;
+      font-family: 'Lora', serif;
+      padding: 2rem 1.5rem;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 1.2rem; min-height: 100vh; justify-content: center;
+    }
+
+    h1 { font-family: 'Cinzel Decorative', serif; font-size: 1.1rem; color: #1a2a0a; text-align: center; }
+    .subtitle { font-size: 0.82rem; color: #4a5a2a; text-align: center; font-style: italic; }
+
+    .card {
+      background: rgba(240,238,225,0.95);
+      border: 2px solid #4a5a3a;
+      border-radius: 2px;
+      padding: 1.6rem 1.8rem;
+      width: 100%; max-width: 750px;
+      box-shadow: 4px 5px 14px rgba(0,0,0,0.3);
+    }
+    .card h2 { font-family: 'Cinzel Decorative', serif; font-size: 0.85rem; color: #1a2a0a; text-align: center; margin-bottom: 1.2rem; }
+
+    .message-row {
+      display: flex; justify-content: center; align-items: center;
+      flex-wrap: wrap; gap: 6px; margin-bottom: 0.8rem;
+    }
+    .word-gap { width: 18px; flex-shrink: 0; }
+
+    .blanks {
+      display: flex; justify-content: center; gap: 0.4rem;
+      flex-wrap: wrap; margin-top: 1.3rem;
+    }
+    .blank {
+      width: 26px; height: 2px; background: #4a5a3a;
+      display: inline-block; margin: 0 2px;
+    }
+
+    .fiche {
+      margin-top: 1.2rem;
+      padding: 0.7rem 1rem;
+      background: rgba(60,80,30,0.07);
+      border: 1px solid rgba(60,80,30,0.3);
+      border-radius: 2px;
+      font-size: 0.78rem; color: #1a2a0a; line-height: 1.8;
+    }
+    .fiche-titre {
+      font-size: 0.65rem; letter-spacing: 0.1em;
+      color: #4a5a2a; margin-bottom: 0.4rem;
+    }
+
+    .calcul {
+      margin-top: 0.8rem;
+      padding: 0.6rem 1rem;
+      border: 1px dashed rgba(60,80,30,0.4);
+      border-radius: 2px;
+      font-size: 0.82rem; color: #1a2a0a; text-align: center;
+      font-style: italic; line-height: 1.7;
+    }
+
+    @media print { body { background: white; } .card { box-shadow: none; } }
+  </style>
+</head>
+<body>
+
+<div>
+  <h1>🐇 Message intercepté — RIP</h1>
+  <p class="subtitle">Utilisez la clé PigPen pour déchiffrer</p>
+</div>
+
+<div class="card">
+  <h2>— Mission 2 —</h2>
+
+  <!--
+    DOUCHE DU SOUS-SOL
+    D=pg-D  O=pg-O  U=pg-U  C=pg-C  H=pg-H  E=pg-E
+    D=pg-D  U=pg-U
+    S=pg-S  O=pg-O  U=pg-U  S=pg-S
+    S=pg-S  O=pg-O  L=pg-L
+  -->
+  <div class="message-row">
+    <div class="sym pg-D"></div>
+    <div class="sym pg-O"></div>
+    <div class="sym pg-U"></div>
+    <div class="sym pg-C"></div>
+    <div class="sym pg-H"></div>
+    <div class="sym pg-E"></div>
+    <div class="word-gap"></div>
+    <div class="sym pg-D"></div>
+    <div class="sym pg-U"></div>
+    <div class="word-gap"></div>
+    <div class="sym pg-S"></div>
+    <div class="sym pg-O"></div>
+    <div class="sym pg-U"></div>
+    <div class="sym pg-S"></div>
+    <div class="word-gap"></div>
+    <div class="sym pg-S"></div>
+    <div class="sym pg-O"></div>
+    <div class="sym pg-L"></div>
+  </div>
+
+<br></br>
+
+  <!-- Blancs : DOUCHE(6) DU(2) SOUS(4) SOL(3) -->
+  <div class="blanks">
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span>
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span>
+    <span style="width:12px"></span>
+    <span class="blank"></span><span class="blank"></span>
+    <span style="width:12px"></span>
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span>
+    <span style="width:12px"></span>
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span>
+  </div>
+
+  <div class="fiche">
+    <div class="fiche-titre">— FICHE AGENT N —</div>
+    Vitesse max d'un lièvre : <strong>72 km/h</strong><br>
+    Pattes : <strong>4</strong> · Oreilles : <strong>2</strong> · Mois : <strong>12</strong> · Heures/jour : <strong>24</strong>
+  </div>
+
+  <div class="calcul">
+    Deuxième code d'accès :<br><br>
+    ( vitesse × pattes − mois × mois )<br>
+    ÷ ( heures × pattes − oreilles × mois )
+  </div>
+</div>
+
+</body>
+</html>

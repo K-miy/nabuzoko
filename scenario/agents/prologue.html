@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>RIP — Transmission Alpha-0</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #d6ceb4;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.5cm;
+      font-family: 'Special Elite', monospace;
+    }
+
+    .page {
+      background:
+        radial-gradient(ellipse at 15% 8%,  rgba(120,110,70,0.22) 0%, transparent 50%),
+        radial-gradient(ellipse at 85% 92%, rgba(90,80,40,0.18)  0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, #ede5cc 0%, #d8cfa8 100%);
+      width: 100%;
+      max-width: 680px;
+      min-height: 800px;
+      border: 1px solid #8a7a50;
+      box-shadow:
+        inset 0 0 60px rgba(80,65,20,0.18),
+        6px 8px 28px rgba(0,0,0,0.5);
+      padding: 3.5rem 4rem 3rem;
+      position: relative;
+    }
+
+    /* Taches de vieillissement */
+    .page::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 30px 20px at 88% 12%, rgba(100,80,20,0.12) 0%, transparent 100%),
+        radial-gradient(ellipse 20px 30px at 8%  78%, rgba(100,80,20,0.10) 0%, transparent 100%),
+        radial-gradient(ellipse 40px 15px at 55% 95%, rgba(80,60,10,0.09)  0%, transparent 100%);
+      pointer-events: none;
+    }
+
+    /* En-tête officiel */
+    .entete {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 2.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #6a5a30;
+    }
+
+    .org {
+      font-size: 0.62rem;
+      color: #5a4a20;
+      letter-spacing: 0.18em;
+      line-height: 1.8;
+      text-transform: uppercase;
+    }
+
+    .org strong {
+      font-size: 0.88rem;
+      display: block;
+      letter-spacing: 0.22em;
+      color: #3a2e0e;
+    }
+
+    .classification {
+      text-align: right;
+    }
+
+    .tampon {
+      display: inline-block;
+      border: 3px solid #8b1010;
+      color: #8b1010;
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      padding: 0.25rem 0.5rem;
+      transform: rotate(5deg);
+      opacity: 0.82;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    .ref-ligne {
+      font-size: 0.6rem;
+      color: #6a5a30;
+      letter-spacing: 0.12em;
+      margin-top: 0.6rem;
+      text-align: right;
+    }
+
+    /* Corps */
+    .objet {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      color: #5a4a20;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+
+    .objet-valeur {
+      font-size: 1.05rem;
+      color: #2a200a;
+      letter-spacing: 0.06em;
+      margin-bottom: 2rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px dashed rgba(90,70,20,0.35);
+    }
+
+    .corps p {
+      font-size: 1.05rem;
+      color: #2a200a;
+      line-height: 1.95;
+      margin-bottom: 1.1rem;
+      text-align: justify;
+    }
+
+    .corps p.indent {
+      text-indent: 2em;
+    }
+
+    /* Zone encre invisible */
+    .zone-invisible {
+      margin: 2.4rem 0 1.8rem;
+      min-height: 80px;
+      border-top: 1px dashed rgba(90,70,20,0.3);
+      border-bottom: 1px dashed rgba(90,70,20,0.3);
+      padding: 1rem 0;
+    }
+
+    /* Signature */
+    .signature {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .sig-bloc {
+      text-align: center;
+      font-size: 0.72rem;
+      color: #5a4a20;
+      letter-spacing: 0.1em;
+      line-height: 1.8;
+    }
+
+    .sig-ligne {
+      width: 160px;
+      height: 1px;
+      background: #6a5a30;
+      margin: 0.5rem auto 0.2rem;
+    }
+
+    .pied {
+      position: absolute;
+      bottom: 1.4rem;
+      left: 0; right: 0;
+      text-align: center;
+      font-size: 0.55rem;
+      color: rgba(90,70,20,0.45);
+      letter-spacing: 0.18em;
+    }
+
+    @media print {
+      body { background: white; }
+      .page { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="entete">
+    <div class="org">
+      <strong>R · I · P</strong>
+      Réseau International de Pâques<br>
+      Division Opérations de Terrain
+    </div>
+    <div class="classification">
+      <div class="tampon">NIVEAU ALPHA<br>ACCÈS RESTREINT</div>
+      <div class="ref-ligne">Réf. : OP-N · PRINTEMPS-26</div>
+    </div>
+  </div>
+
+  <div class="objet">Objet :</div>
+  <div class="objet-valeur">Activation de nouveaux agents — Transmission d'urgence</div>
+
+  <div class="corps">
+    <p class="indent">
+      Si vous lisez ceci, l'Agent N est hors circuit.
+      Son réseau a été compromis cette nuit. Il s'est réfugié,
+      a mis la Cargaison de Printemps en lieu sûr, et a disparu.
+    </p>
+    <p class="indent">
+      Vous êtes désormais les seuls agents actifs du réseau.
+      Votre mission : localiser la Cargaison et la récupérer
+      avant le coucher du soleil.
+    </p>
+    <p class="indent">
+      L'Agent N a laissé des briefs codés à votre intention.
+      Il n'a confiance qu'en vous.
+    </p>
+  </div>
+
+  <!-- Espace réservé au message en encre invisible -->
+  <div class="zone-invisible"></div>
+
+  <div class="corps">
+    <p>
+      Bonne chance. Le RIP compte sur vous.
+    </p>
+  </div>
+
+  <div class="signature">
+    <div class="sig-bloc">
+      <div class="sig-ligne"></div>
+      Directeur des Opérations<br>
+      R · I · P — Division Alpha
+    </div>
+  </div>
+
+  <div class="pied">DOCUMENT À DÉTRUIRE APRÈS LECTURE · RIP-26 · CONFIDENTIEL</div>
+
+</div>
+</body>
+</html>

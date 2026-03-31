@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>RIP — Code Secret I</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A5 portrait; margin: 1.5cm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #e8e4d8;
+      font-family: 'Lora', serif;
+      padding: 2rem 1.5rem;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 1.2rem; min-height: 100vh; justify-content: center;
+    }
+
+    h1 { font-family: 'Cinzel Decorative', serif; font-size: 1.1rem; color: #1a2a0a; text-align: center; }
+    .subtitle { font-size: 0.82rem; color: #4a5a2a; text-align: center; font-style: italic; }
+
+    .card {
+      background: rgba(240,238,225,0.95);
+      border: 2px solid #4a5a3a;
+      border-radius: 2px;
+      padding: 1.6rem 1.8rem;
+      width: 100%; max-width: 380px;
+      box-shadow: 4px 5px 14px rgba(0,0,0,0.3);
+    }
+    .card h2 { font-family: 'Cinzel Decorative', serif; font-size: 0.85rem; color: #1a2a0a; text-align: center; margin-bottom: 1.2rem; }
+
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 0.7rem; color: #4a5a2a;
+      border-bottom: 2px solid #4a5a3a;
+      padding: 0.3rem 0.5rem;
+      text-align: center; letter-spacing: 0.08em;
+    }
+    td {
+      padding: 0.45rem 0.5rem;
+      text-align: center;
+      font-size: 1.05rem;
+      border-bottom: 1px solid rgba(60,80,30,0.2);
+      color: #1a2a0a;
+    }
+    td:first-child { font-weight: bold; font-size: 1.15rem; }
+    td:last-child { font-size: 1.5rem; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: rgba(60,80,30,0.04); }
+
+    @media print { body { background: white; } .card { box-shadow: none; } }
+  </style>
+</head>
+<body>
+
+<div>
+  <h1>🔐 Code Secret I</h1>
+  <p class="subtitle">Réseau International de Pâques · RIP</p>
+</div>
+
+<div class="card">
+  <h2>— Clé de l'Agent I —</h2>
+  <table>
+    <tr><th>Lettre</th><th>Émoji</th></tr>
+    <tr><td>A</td><td>🐣</td></tr>
+    <tr><td>B</td><td>🌷</td></tr>
+    <tr><td>D</td><td>🌿</td></tr>
+    <tr><td>G</td><td>🌼</td></tr>
+    <tr><td>J</td><td>🌈</td></tr>
+    <tr><td>K</td><td>🌊</td></tr>
+    <tr><td>M</td><td>🍀</td></tr>
+    <tr><td>O</td><td>🥕</td></tr>
+    <tr><td>P</td><td>🪺</td></tr>
+    <tr><td>R</td><td>🍫</td></tr>
+    <tr><td>T</td><td>🔑</td></tr>
+    <tr><td>U</td><td>🏆</td></tr>
+    <tr><td>X</td><td>🎪</td></tr>
+  </table>
+</div>
+
+</body>
+</html>

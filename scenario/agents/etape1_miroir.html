@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>RIP — Dossier Alpha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4; margin: 2cm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #e8e0d0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      font-family: 'UnifrakturMaguntia', cursive;
+    }
+
+    .parchment {
+      background:
+        radial-gradient(ellipse at 20% 10%, rgba(100,120,80,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 90%, rgba(60,80,50,0.10) 0%, transparent 55%),
+        radial-gradient(ellipse at 50% 50%, rgba(235,228,210,1) 0%, rgba(210,205,185,1) 100%);
+      border: 2px solid #4a5a3a;
+      border-radius: 2px;
+      box-shadow:
+        inset 0 0 40px rgba(40,60,20,0.15),
+        4px 6px 20px rgba(0,0,0,0.45);
+      padding: 3rem 3.5rem;
+      max-width: 680px;
+      width: 100%;
+      position: relative;
+    }
+
+    .stamp {
+      position: absolute;
+      top: 1.2rem; right: 1.2rem;
+      border: 3px solid #8b1010;
+      color: #8b1010;
+      font-size: 0.65rem;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      letter-spacing: 0.15em;
+      padding: 0.3rem 0.5rem;
+      opacity: 0.75;
+      transform: rotate(8deg);
+    }
+
+    .inner {
+      border: 1px solid rgba(60,80,30,0.3);
+      padding: 2rem 2.5rem;
+      transform: scaleX(-1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 1.8rem;
+    }
+
+    .lapin {
+      font-size: 2.4rem;
+      display: inline-block;
+      transform: scaleX(-1);
+      margin-bottom: 0.3rem;
+    }
+
+    h1 {
+      font-family: 'UnifrakturMaguntia', cursive;
+      font-size: 2rem;
+      color: #1a2a0a;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+    }
+
+    .ref {
+      font-size: 0.72rem;
+      color: #4a5a2a;
+      letter-spacing: 0.12em;
+      margin-top: 0.3rem;
+    }
+
+    .divider {
+      text-align: center;
+      color: #4a5a2a;
+      font-size: 1rem;
+      margin: 1.2rem 0;
+      letter-spacing: 0.4em;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #1a2a0a;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .fiche {
+      background: rgba(60,80,30,0.07);
+      border: 1px solid rgba(60,80,30,0.35);
+      border-radius: 2px;
+      padding: 0.9rem 1.3rem;
+      margin: 1rem 0;
+      font-size: 1.05rem;
+      color: #1a2a0a;
+      line-height: 1.9;
+    }
+
+    .fiche-titre {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      color: #4a5a2a;
+      margin-bottom: 0.5rem;
+    }
+
+    .calcul {
+      background: rgba(60,80,30,0.06);
+      border: 1px dashed rgba(60,80,30,0.4);
+      border-radius: 2px;
+      padding: 1rem 1.5rem;
+      margin: 1.2rem 0;
+      text-align: center;
+    }
+
+    .calcul p {
+      margin: 0;
+      font-size: 1.45rem;
+      color: #1a2a0a;
+      line-height: 2;
+    }
+
+    .next {
+      margin-top: 1.4rem;
+      font-size: 1.15rem;
+      text-align: center;
+      color: #1a2a0a;
+      font-style: italic;
+    }
+
+    .next-blank {
+      display: inline-block;
+      width: 160px;
+      border-bottom: 2px solid #4a5a2a;
+      vertical-align: bottom;
+    }
+
+    @media print { body { background: white; } }
+  </style>
+</head>
+<body>
+  <div class="parchment">
+    <div class="stamp">CONFIDENTIEL</div>
+    <div class="inner">
+
+      <div class="header">
+        <span class="lapin">🐇</span>
+        <h1>Dossier Alpha — Agent N</h1>
+        <p class="ref">Réseau International de Pâques · RIP</p>
+      </div>
+
+      <div class="divider">— ✦ —</div>
+
+      <p>
+        Si vous lisez ceci,<br>
+        vous avez accédé au niveau Alpha du réseau.<br>
+        L'Agent N vous transmet son premier code d'accès.
+      </p>
+
+      <div class="divider">— ✦ —</div>
+
+      <p style="font-size:1.1rem;">Données de terrain classifiées :</p>
+
+      <div class="fiche">
+        <div class="fiche-titre">— FICHE AGENT N —</div>
+        Vitesse max d'un lièvre d'Amérique : <strong>72 km/h</strong>
+      </div>
+
+      <p>Calculez le premier code d'accès :</p>
+
+      <div class="calcul">
+        <p>
+          vitesse max<br>
+          ÷ ( mois × pattes ÷ oreilles )
+        </p>
+      </div>
+
+      <div class="divider">— ✦ —</div>
+
+      <p class="next">
+        Prochain brief : <span class="next-blank"></span>
+      </p>
+
+    </div>
+  </div>
+</body>
+</html>

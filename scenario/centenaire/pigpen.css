@@ -1,0 +1,167 @@
+/* =============================================================
+   pigpen.css — Chiffre PigPen · Toutes les lettres A–Z
+   =============================================================
+   Usage HTML :
+     <div class="sym pg-A"></div>   → lettre A
+     <div class="sym pg-N"></div>   → lettre N (point intégré)
+     <div class="sym pg-S"></div>   → lettre S (section haut du X)
+
+   La couleur du symbole est définie par --pg-color (défaut : #3a2005).
+   Pour changer la couleur sur une page : body { --pg-color: #102040; }
+   ============================================================= */
+
+/* ── Base ────────────────────────────────────────────────── */
+.sym {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-color: var(--pg-color, #3a2005);
+  border-style: solid;
+  border-width: 0;
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* ── Grille carrée — A à I (sans point) ─────────────────── */
+/*
+   Disposition dans le 3×3 :
+     A | B | C
+     D | E | F
+     G | H | I
+   Chaque lettre = les bords partagés avec ses voisines.
+*/
+.pg-A { border-right-width: 3px; border-bottom-width: 3px; }
+.pg-B { border-left-width: 3px; border-right-width: 3px; border-bottom-width: 3px; }
+.pg-C { border-left-width: 3px; border-bottom-width: 3px; }
+.pg-D { border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; }
+.pg-E { border-width: 3px; }
+.pg-F { border-top-width: 3px; border-left-width: 3px; border-bottom-width: 3px; }
+.pg-G { border-top-width: 3px; border-right-width: 3px; }
+.pg-H { border-top-width: 3px; border-left-width: 3px; border-right-width: 3px; }
+.pg-I { border-top-width: 3px; border-left-width: 3px; }
+
+/* ── Grille carrée — J à R (mêmes formes + point) ───────── */
+.pg-J { border-right-width: 3px; border-bottom-width: 3px; }
+.pg-K { border-left-width: 3px; border-right-width: 3px; border-bottom-width: 3px; }
+.pg-L { border-left-width: 3px; border-bottom-width: 3px; }
+.pg-M { border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; }
+.pg-N { border-width: 3px; }
+.pg-O { border-top-width: 3px; border-left-width: 3px; border-bottom-width: 3px; }
+.pg-P { border-top-width: 3px; border-right-width: 3px; }
+.pg-Q { border-top-width: 3px; border-left-width: 3px; border-right-width: 3px; }
+.pg-R { border-top-width: 3px; border-left-width: 3px; }
+
+/* Point rouge central pour J–R */
+.pg-J::after, .pg-K::after, .pg-L::after, .pg-M::after, .pg-N::after,
+.pg-O::after, .pg-P::after, .pg-Q::after, .pg-R::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: #8b1010;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ── Grille en X — S à V (sans point) ───────────────────── */
+/*
+   Disposition dans le X :
+         S
+       T   U
+         V
+   Chaque symbole = un chemin brisé en 3 points :
+     coin → milieu du côté OPPOSÉ → autre coin
+   Le coude (≠ centre du carré) reçoit le point pour W–Z.
+
+   S (haut)  : coin haut-gauche (5,5) → milieu bas (22,39) → coin haut-droite (39,5)
+   T (gauche): coin haut-gauche (5,5) → milieu droite (39,22) → coin bas-gauche (5,39)
+   U (droite): coin haut-droite (39,5) → milieu gauche (5,22) → coin bas-droite (39,39)
+   V (bas)   : coin bas-gauche (5,39) → milieu haut (22,5)  → coin bas-droite (39,39)
+*/
+
+/* S = section haut — coude au milieu du bord bas (22,39) */
+.pg-S {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='5,5 22,39 39,5' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* T = section gauche — coude au milieu du bord droit (39,22) */
+.pg-T {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='5,5 39,22 5,39' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* U = section droite — coude au milieu du bord gauche (5,22) */
+.pg-U {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='39,5 5,22 39,39' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* V = section bas — coude au milieu du bord haut (22,5) */
+.pg-V {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='5,39 22,5 39,39' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* ── Grille en X — W à Z (mêmes formes + point au coude) ─── */
+/*
+   Le point est posé sur le coude (milieu du côté), jamais au centre.
+   Les lignes restent entièrement visibles.
+*/
+
+/* W = section haut + point */
+.pg-W {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='5,5 22,39 39,5' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* X = section gauche + point */
+.pg-X {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='5,5 39,22 5,39' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Y = section droite + point */
+.pg-Y {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='39,5 5,22 39,39' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Z = section bas + point */
+.pg-Z {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpolyline points='5,39 22,5 39,39' fill='none' stroke='%233a2005' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Point rouge au centre pour W–Z (même mécanique que J–R) */
+.pg-W::after, .pg-X::after, .pg-Y::after, .pg-Z::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: #8b1010;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

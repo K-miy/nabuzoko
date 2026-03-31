@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nabuzoko — Message 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pigpen.css">
+  <style>
+    @page { size: A5; margin: 1.5cm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #f5ead0;
+      font-family: 'Lora', serif;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      min-height: 100vh;
+      justify-content: center;
+    }
+    h1 { font-family: 'Cinzel Decorative', serif; font-size: 1.2rem; color: #3a2005; text-align: center; }
+    .subtitle { font-size: 0.85rem; color: #7a4f1a; text-align: center; font-style: italic; }
+
+    .card {
+      background: rgba(253,246,227,0.9);
+      border: 2.5px solid #8b6030;
+      border-radius: 4px;
+      padding: 1.8rem 2rem;
+      width: 100%;
+      max-width: 750px;
+      box-shadow: 4px 5px 14px rgba(0,0,0,0.25);
+    }
+    .card h2 { font-family: 'Cinzel Decorative', serif; font-size: 0.9rem; color: #4a2a08; text-align: center; margin-bottom: 1.5rem; }
+
+    .message-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 1rem;
+    }
+    .word-gap { width: 20px; flex-shrink: 0; }
+
+    .blanks {
+      display: flex; justify-content: center; gap: 0.5rem;
+      flex-wrap: wrap; margin-top: 1.5rem;
+    }
+    .blank {
+      width: 28px; height: 2px; background: #8b6030;
+      display: inline-block; margin: 0 2px;
+    }
+
+    .instruction {
+      margin-top: 1.2rem;
+      padding: 0.6rem 1rem;
+      border: 1px dashed rgba(120,80,20,0.45);
+      border-radius: 3px;
+      font-size: 0.8rem; color: #5a3810; text-align: center;
+      font-style: italic; line-height: 1.7;
+    }
+    @media print { body { background: white; } .card { box-shadow: none; } }
+  </style>
+</head>
+<body>
+
+<div>
+  <h1>🐰 Message de Nabuzoko</h1>
+  <p class="subtitle">Utilisez votre clé PigPen pour déchiffrer</p>
+</div>
+
+<div class="card">
+  <h2>— Étape 3 —</h2>
+
+  <!--
+    CABANE AUX LAPINS
+    C=pg-C  A=pg-A  B=pg-B  A=pg-A  N=pg-N  E=pg-E
+    A=pg-A  U=pg-U  X=pg-X
+    L=pg-L  A=pg-A  P=pg-P  I=pg-I  N=pg-N  S=pg-S
+  -->
+  <div class="message-row">
+    <div class="sym pg-C"></div>
+    <div class="sym pg-A"></div>
+    <div class="sym pg-B"></div>
+    <div class="sym pg-A"></div>
+    <div class="sym pg-N"></div>
+    <div class="sym pg-E"></div>
+  </div>
+  <div class="message-row">
+    <div class="word-gap"></div>
+    <div class="sym pg-A"></div>
+    <div class="sym pg-U"></div>
+    <div class="sym pg-X"></div>
+    </div>
+  <div class="message-row">
+    <div class="sym pg-L"></div>
+    <div class="sym pg-A"></div>
+    <div class="sym pg-P"></div>
+    <div class="sym pg-I"></div>
+    <div class="sym pg-N"></div>
+    <div class="sym pg-S"></div>
+  </div>
+  <br>
+  <br>
+  <!-- Lignes pour écrire la réponse : CABANE · AUX · LAPINS -->
+  <div class="blanks">
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span>
+    <span style="width:14px"></span>
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span>
+    <span style="width:14px"></span>
+    <span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span><span class="blank"></span>
+  </div>
+
+  <div class="instruction">
+    Utilisez la clé PigPen pour déchiffrer chaque symbole.<br>
+    La réponse vous dit où chercher le prochain œuf.
+  </div>
+</div>
+
+</body>
+</html>

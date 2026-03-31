@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>RIP — Clé PigPen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A5; margin: 1.2cm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #e8e4d8;
+      font-family: 'Lora', serif;
+      padding: 1.5rem;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 1rem; min-height: 100vh; justify-content: center;
+    }
+
+    h1 { font-family: 'Cinzel Decorative', serif; font-size: 1rem; color: #1a2a0a; text-align: center; }
+    .subtitle { font-size: 0.78rem; color: #4a5a2a; text-align: center; font-style: italic; }
+
+    .card {
+      background: rgba(240,238,225,0.95);
+      border: 2px solid #4a5a3a;
+      border-radius: 2px;
+      padding: 1.2rem 1.4rem;
+      width: 100%; max-width: 420px;
+      box-shadow: 4px 5px 14px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .card h2 {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 0.78rem; color: #1a2a0a;
+      margin-bottom: 1rem; letter-spacing: 0.06em;
+    }
+
+    .pigpen-img {
+      width: 100%;
+      max-width: 360px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      image-rendering: crisp-edges;
+    }
+
+    .note {
+      margin-top: 0.9rem;
+      font-size: 0.72rem; color: #4a5a2a;
+      font-style: italic; line-height: 1.6;
+    }
+
+    @media print { body { background: white; } .card { box-shadow: none; } }
+  </style>
+</head>
+<body>
+
+<div>
+  <h1>🔐 Clé de Déchiffrement</h1>
+  <p class="subtitle">Nabuzoko · Code PigPen</p>
+</div>
+
+<div class="card">
+  <h2>— Code PigPen —</h2>
+  <img class="pigpen-img" src="../../banque/PigPen.png" alt="Tableau de correspondance PigPen A-Z">
+  <p class="note">Chaque symbole représente une lettre.<br>Les points distinguent les deux séries.</p>
+</div>
+
+</body>
+</html>
