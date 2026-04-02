@@ -7,10 +7,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Lora:ital@0;1&display=swap" rel="stylesheet">
   <style>
     @page { size: A4; margin: 0; }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0;
+        -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
     body {
-      background: #d6ceb4;
+      background: white;
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -169,7 +170,6 @@
     }
 
     @media print {
-      body { background: white; }
       .page { box-shadow: none; }
     }
   </style>
